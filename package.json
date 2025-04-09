@@ -3,15 +3,15 @@
   "private": true,
   "version": "1.0.0",
   "type": "module",
+  "homepage": "https://aminerc.github.io/myportfolio/",
   "scripts": {
     "build": "vite build",
     "predeploy": "npm run build",
-    "deploy": "main -d dist",
+    "deploy": "gh-pages -d dist",
     "dev": "vite",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "ts:check": "tsc --noEmit",
-    "homepage": "https://aminerc.github.io/myportfolio/"
+    "ts:check": "tsc --noEmit"
   },
   "dependencies": {
     "@emailjs/browser": "^3.12.1",
